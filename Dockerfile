@@ -1,4 +1,4 @@
-FROM stackbrew/ubuntu:trusty
+FROM stackbrew/ubuntu:precise
 MAINTAINER ryan.walker@rackspace.com 
 
 RUN apt-get update && apt-get install -y \
