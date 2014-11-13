@@ -24,3 +24,5 @@ RUN git config --global user.name "Ryan Walker"
 RUN git clone https://github.com/ryandub/omnibus-ohai-solo.git && \
     cd omnibus-ohai-solo && \
     bundle install --binstubs
+
+WORKDIR /omnibus-ohai-solo
