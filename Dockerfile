@@ -13,7 +13,8 @@ RUN apt-get update && apt-get install -y \
     libcurl4-openssl-dev \
     zlib1g-dev \
     libexpat1-dev \
-    libicu-dev
+    libicu-dev \
+    python2.7
 
 RUN gem install bundler --no-ri --no-rdoc
 
